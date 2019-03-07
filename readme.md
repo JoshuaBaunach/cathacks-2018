@@ -27,5 +27,3 @@ The code is written in Python and has not much more functionality than respondin
 This directory contains the client-side site code. It does not need to run on a server; it can run on a local machine.
 
 The code for getting data from the server was written in JavaScript. The Materialize library was used to style the site. Every half second, the site will make a GET request to the server. The server will respond with the parameters it captured from the AWS Lambda, and the site will format it into proper HTML and display it to the user.
-
-##cloned from Josh Baunach at https://github.com/JoshuaBaunach/cathacks-2018##
